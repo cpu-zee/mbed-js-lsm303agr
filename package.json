@@ -1,0 +1,26 @@
+{
+  "name": "mbed-js-lsm303agr",
+  "version": "1.0.0",
+  "description": " LSM303AGR library with wrappers for Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syed-zeeshan/mbed-js-lsm303agr.git"
+  },
+  "keywords": [
+    "mbed",
+    "js",
+    "lsm303agr",
+    "st",
+    "mbed-os"
+  ],
+  "author": "ST",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syed-zeeshan/mbed-js-lsm303agr/issues"
+  },
+  "homepage": "https://github.com/syed-zeeshan/mbed-js-lsm303agr#readme"
+}
