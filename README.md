@@ -2,7 +2,7 @@
 LSM303AGR library wrappers for Javascript on Mbed
 
 ## About library
-Helper class providing functions for [LSM303AGR](https://os.mbed.com/teams/ST/code/LSM303AGR/) sensor library in JavaScript.
+Helper class providing functions for [LSM303AGR](https://os.mbed.com/teams/ST/code/LSM303AGR/) sensor library (part of [X_NUCLEO_IKS01A2](https://os.mbed.com/teams/ST/code/X_NUCLEO_IKS01A2/)) in JavaScript.
 
 ## Requirements
 This library is to be used with the following tools:
@@ -12,6 +12,7 @@ This library is to be used with the following tools:
 See this project for more information: [mbed-js-example](https://github.com/ARMmbed/mbed-js-example)
 
 ## Dependencies
+You need to install dependencies before installing this library.
 * If using SPI: [mbed-js-spi](https://github.com/syed-zeeshan/mbed-js-spi)
 * If using DevI2C: [mbed-js-devi2c](https://github.com/syed-zeeshan/mbed-js-devi2c)
 
