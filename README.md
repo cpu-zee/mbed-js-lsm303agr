@@ -1,21 +1,21 @@
 # mbed-js-lsm303agr
 LSM303AGR library wrappers for Javascript on Mbed
 
-# About library
+## About library
 Helper class providing functions for [LSM303AGR](https://os.mbed.com/teams/ST/code/LSM303AGR/) sensor library in JavaScript.
 
-# Requirements
+## Requirements
 This library is to be used with the following tools:
 * [Mbed](https://www.mbed.com/en/platform/mbed-os/)
 * [JerryScript](https://github.com/jerryscript-project/jerryscript)
 
 See this project for more information: [mbed-js-example](https://github.com/ARMmbed/mbed-js-example)
 
-# Dependencies
+## Dependencies
 * If using SPI: [mbed-js-spi](https://github.com/syed-zeeshan/mbed-js-spi)
 * If using DevI2C: [mbed-js-devi2c](https://github.com/syed-zeeshan/mbed-js-devi2c)
 
-# Installation
+## Installation
 * Before installing this library, make sure you have a working JavaScript on Mbed project and the project builds for your target device.
 Follow [mbed-js-example](https://github.com/ARMmbed/mbed-js-example) to create the project and learn more about using JavaScript on Mbed.
 
@@ -25,7 +25,7 @@ cd project_path
 npm install syed-zeeshan/mbed-js-lsm303agr
 ```
 
-# Usage
+## Usage
 ```
 /*****************
  * Instantiation *
@@ -77,7 +77,7 @@ lsm303agr.get_magnetometer_axes();
 
 ```
 
-# Example using DevI2C (Nucleo-F429ZI)
+## Example using DevI2C (Nucleo-F429ZI)
 ```
 // Initialize DevI2C with SDA and SCL pins
 var dev_i2c = DevI2C(D14, D15);
@@ -97,7 +97,7 @@ print("[Accelerometer]: [" + acc.x + ", " + acc.y + ", " + acc.z + "]");
 print("[Magnetometer]: [" + mag.x + ", " + mag.y + ", " + mag.z + "]");
 ```
 
-# Example using SPI (Nucleo-F476RG)
+## Example using SPI (Nucleo-F476RG)
 ```
 // Initialize SPI with MOSI, MISO, SCLK pins
 var spi = SPI(PB_15, NC, PB_13);
