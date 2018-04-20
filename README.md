@@ -80,7 +80,7 @@ lsm303agr.get_magnetometer_axes();
 # Example using DevI2C (Nucleo-F429ZI)
 ```
 // Initialize DevI2C with SDA and SCL pins
-dev_i2c = DevI2C(D14, D15);
+var dev_i2c = DevI2C(D14, D15);
 
 // Instantiate LSM303AGR library 
 var lsm303agr = LSM303AGR_JS();
